@@ -1,5 +1,5 @@
 def main():
-  path = "./books/frankenstein.txt"
+  path = "books/frankenstein.txt"
   text = read_file(path)
   word_count = get_num_words_from_text(text)
   character_count_dict = get_character_count_in_text(text)
@@ -32,7 +32,7 @@ def print_report(char_dict, path, word_count):
 
   list_of_character_count = chars_dict_to_sorted_list(char_dict)
   for obj in list_of_character_count:
-    print(f"The '{obj["letter"]}' character was found {obj["count"]} times")
+    print(f"The '{obj['letter']}' character was found {obj['count']} times")
   print("--- End report ---")
 
 def sort_on(dict):
