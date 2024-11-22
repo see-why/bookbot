@@ -4,7 +4,7 @@ BookBot is my first python project!.
 
 It is a simple bot that can be used to display the count of all alhabet characters from a text or book.
 
-![smaple report](snap_shot.png)
+![sample report](snap_shot.png)
 
 ## Set up
 * Have [python 3](https://www.python.org/downloads/) installed in your environment
